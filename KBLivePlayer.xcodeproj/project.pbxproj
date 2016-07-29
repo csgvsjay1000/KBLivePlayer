@@ -15,6 +15,18 @@
 		4C48D4E71D4AF5A900322116 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C48D4E51D4AF5A900322116 /* LaunchScreen.storyboard */; };
 		4C48D4F21D4AF5A900322116 /* KBLivePlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C48D4F11D4AF5A900322116 /* KBLivePlayerTests.m */; };
 		4C48D4FD1D4AF5A900322116 /* KBLivePlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C48D4FC1D4AF5A900322116 /* KBLivePlayerUITests.m */; };
+		4C48D51B1D4AFD2700322116 /* amf.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C48D50B1D4AFD2700322116 /* amf.c */; };
+		4C48D51C1D4AFD2700322116 /* error.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C48D5101D4AFD2700322116 /* error.c */; };
+		4C48D51D1D4AFD2700322116 /* hashswf.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C48D5131D4AFD2700322116 /* hashswf.c */; };
+		4C48D51E1D4AFD2700322116 /* log.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C48D5151D4AFD2700322116 /* log.c */; };
+		4C48D51F1D4AFD2700322116 /* parseurl.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C48D5171D4AFD2700322116 /* parseurl.c */; };
+		4C48D5201D4AFD2700322116 /* rtmp.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C48D5181D4AFD2700322116 /* rtmp.c */; };
+		4C48D5231D4AFDF000322116 /* KBLivePreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C48D5221D4AFDF000322116 /* KBLivePreview.m */; };
+		4C48D5271D4AFEC900322116 /* KBLiveSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C48D5261D4AFEC900322116 /* KBLiveSession.m */; };
+		4C48D52B1D4AFF9200322116 /* KBLiveStreamInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C48D52A1D4AFF9200322116 /* KBLiveStreamInfo.m */; };
+		4C48D52F1D4B003D00322116 /* KBLiveAudioConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C48D52E1D4B003D00322116 /* KBLiveAudioConfiguration.m */; };
+		4C48D5321D4B005500322116 /* KBLiveVideoConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C48D5311D4B005500322116 /* KBLiveVideoConfiguration.m */; };
+		4C48D5371D4B06D500322116 /* KBStreamRtmpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C48D5361D4B06D500322116 /* KBStreamRtmpSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,35 @@
 		4C48D4F81D4AF5A900322116 /* KBLivePlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KBLivePlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C48D4FC1D4AF5A900322116 /* KBLivePlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBLivePlayerUITests.m; sourceTree = "<group>"; };
 		4C48D4FE1D4AF5A900322116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C48D50B1D4AFD2700322116 /* amf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = amf.c; sourceTree = "<group>"; };
+		4C48D50C1D4AFD2700322116 /* amf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amf.h; sourceTree = "<group>"; };
+		4C48D50D1D4AFD2700322116 /* bytes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bytes.h; sourceTree = "<group>"; };
+		4C48D50E1D4AFD2700322116 /* dh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dh.h; sourceTree = "<group>"; };
+		4C48D50F1D4AFD2700322116 /* dhgroups.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dhgroups.h; sourceTree = "<group>"; };
+		4C48D5101D4AFD2700322116 /* error.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = error.c; sourceTree = "<group>"; };
+		4C48D5111D4AFD2700322116 /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		4C48D5121D4AFD2700322116 /* handshake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = handshake.h; sourceTree = "<group>"; };
+		4C48D5131D4AFD2700322116 /* hashswf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hashswf.c; sourceTree = "<group>"; };
+		4C48D5141D4AFD2700322116 /* http.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http.h; sourceTree = "<group>"; };
+		4C48D5151D4AFD2700322116 /* log.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = log.c; sourceTree = "<group>"; };
+		4C48D5161D4AFD2700322116 /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
+		4C48D5171D4AFD2700322116 /* parseurl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = parseurl.c; sourceTree = "<group>"; };
+		4C48D5181D4AFD2700322116 /* rtmp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rtmp.c; sourceTree = "<group>"; };
+		4C48D5191D4AFD2700322116 /* rtmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtmp.h; sourceTree = "<group>"; };
+		4C48D51A1D4AFD2700322116 /* rtmp_sys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rtmp_sys.h; sourceTree = "<group>"; };
+		4C48D5211D4AFDF000322116 /* KBLivePreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBLivePreview.h; sourceTree = "<group>"; };
+		4C48D5221D4AFDF000322116 /* KBLivePreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBLivePreview.m; sourceTree = "<group>"; };
+		4C48D5251D4AFEC900322116 /* KBLiveSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBLiveSession.h; sourceTree = "<group>"; };
+		4C48D5261D4AFEC900322116 /* KBLiveSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBLiveSession.m; sourceTree = "<group>"; };
+		4C48D5291D4AFF9200322116 /* KBLiveStreamInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBLiveStreamInfo.h; sourceTree = "<group>"; };
+		4C48D52A1D4AFF9200322116 /* KBLiveStreamInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBLiveStreamInfo.m; sourceTree = "<group>"; };
+		4C48D52D1D4B003D00322116 /* KBLiveAudioConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBLiveAudioConfiguration.h; sourceTree = "<group>"; };
+		4C48D52E1D4B003D00322116 /* KBLiveAudioConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBLiveAudioConfiguration.m; sourceTree = "<group>"; };
+		4C48D5301D4B005500322116 /* KBLiveVideoConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBLiveVideoConfiguration.h; sourceTree = "<group>"; };
+		4C48D5311D4B005500322116 /* KBLiveVideoConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBLiveVideoConfiguration.m; sourceTree = "<group>"; };
+		4C48D5341D4B05C400322116 /* KBStreamSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBStreamSocket.h; sourceTree = "<group>"; };
+		4C48D5351D4B06D500322116 /* KBStreamRtmpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBStreamRtmpSocket.h; sourceTree = "<group>"; };
+		4C48D5361D4B06D500322116 /* KBStreamRtmpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBStreamRtmpSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +146,9 @@
 				4C48D4DB1D4AF5A900322116 /* AppDelegate.m */,
 				4C48D4DD1D4AF5A900322116 /* ViewController.h */,
 				4C48D4DE1D4AF5A900322116 /* ViewController.m */,
+				4C48D5211D4AFDF000322116 /* KBLivePreview.h */,
+				4C48D5221D4AFDF000322116 /* KBLivePreview.m */,
+				4C48D5241D4AFEAE00322116 /* KBLiveKit */,
 				4C48D4E01D4AF5A900322116 /* Main.storyboard */,
 				4C48D4E31D4AF5A900322116 /* Assets.xcassets */,
 				4C48D4E51D4AF5A900322116 /* LaunchScreen.storyboard */,
@@ -117,6 +161,7 @@
 		4C48D4D71D4AF5A900322116 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4C48D50A1D4AFD2700322116 /* pili-librtmp */,
 				4C48D4D81D4AF5A900322116 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +183,71 @@
 				4C48D4FE1D4AF5A900322116 /* Info.plist */,
 			);
 			path = KBLivePlayerUITests;
+			sourceTree = "<group>";
+		};
+		4C48D50A1D4AFD2700322116 /* pili-librtmp */ = {
+			isa = PBXGroup;
+			children = (
+				4C48D50B1D4AFD2700322116 /* amf.c */,
+				4C48D50C1D4AFD2700322116 /* amf.h */,
+				4C48D50D1D4AFD2700322116 /* bytes.h */,
+				4C48D50E1D4AFD2700322116 /* dh.h */,
+				4C48D50F1D4AFD2700322116 /* dhgroups.h */,
+				4C48D5101D4AFD2700322116 /* error.c */,
+				4C48D5111D4AFD2700322116 /* error.h */,
+				4C48D5121D4AFD2700322116 /* handshake.h */,
+				4C48D5131D4AFD2700322116 /* hashswf.c */,
+				4C48D5141D4AFD2700322116 /* http.h */,
+				4C48D5151D4AFD2700322116 /* log.c */,
+				4C48D5161D4AFD2700322116 /* log.h */,
+				4C48D5171D4AFD2700322116 /* parseurl.c */,
+				4C48D5181D4AFD2700322116 /* rtmp.c */,
+				4C48D5191D4AFD2700322116 /* rtmp.h */,
+				4C48D51A1D4AFD2700322116 /* rtmp_sys.h */,
+			);
+			path = "pili-librtmp";
+			sourceTree = "<group>";
+		};
+		4C48D5241D4AFEAE00322116 /* KBLiveKit */ = {
+			isa = PBXGroup;
+			children = (
+				4C48D5251D4AFEC900322116 /* KBLiveSession.h */,
+				4C48D5261D4AFEC900322116 /* KBLiveSession.m */,
+				4C48D5331D4B03CA00322116 /* publishAndReceive */,
+				4C48D52C1D4B002700322116 /* configuration */,
+				4C48D5281D4AFF7B00322116 /* objects */,
+			);
+			path = KBLiveKit;
+			sourceTree = "<group>";
+		};
+		4C48D5281D4AFF7B00322116 /* objects */ = {
+			isa = PBXGroup;
+			children = (
+				4C48D5291D4AFF9200322116 /* KBLiveStreamInfo.h */,
+				4C48D52A1D4AFF9200322116 /* KBLiveStreamInfo.m */,
+			);
+			path = objects;
+			sourceTree = "<group>";
+		};
+		4C48D52C1D4B002700322116 /* configuration */ = {
+			isa = PBXGroup;
+			children = (
+				4C48D52D1D4B003D00322116 /* KBLiveAudioConfiguration.h */,
+				4C48D52E1D4B003D00322116 /* KBLiveAudioConfiguration.m */,
+				4C48D5301D4B005500322116 /* KBLiveVideoConfiguration.h */,
+				4C48D5311D4B005500322116 /* KBLiveVideoConfiguration.m */,
+			);
+			path = configuration;
+			sourceTree = "<group>";
+		};
+		4C48D5331D4B03CA00322116 /* publishAndReceive */ = {
+			isa = PBXGroup;
+			children = (
+				4C48D5341D4B05C400322116 /* KBStreamSocket.h */,
+				4C48D5351D4B06D500322116 /* KBStreamRtmpSocket.h */,
+				4C48D5361D4B06D500322116 /* KBStreamRtmpSocket.m */,
+			);
+			path = publishAndReceive;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,8 +381,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C48D4DF1D4AF5A900322116 /* ViewController.m in Sources */,
+				4C48D51F1D4AFD2700322116 /* parseurl.c in Sources */,
 				4C48D4DC1D4AF5A900322116 /* AppDelegate.m in Sources */,
+				4C48D5271D4AFEC900322116 /* KBLiveSession.m in Sources */,
+				4C48D51D1D4AFD2700322116 /* hashswf.c in Sources */,
+				4C48D51B1D4AFD2700322116 /* amf.c in Sources */,
+				4C48D5371D4B06D500322116 /* KBStreamRtmpSocket.m in Sources */,
+				4C48D51E1D4AFD2700322116 /* log.c in Sources */,
+				4C48D52F1D4B003D00322116 /* KBLiveAudioConfiguration.m in Sources */,
 				4C48D4D91D4AF5A900322116 /* main.m in Sources */,
+				4C48D5231D4AFDF000322116 /* KBLivePreview.m in Sources */,
+				4C48D51C1D4AFD2700322116 /* error.c in Sources */,
+				4C48D5321D4B005500322116 /* KBLiveVideoConfiguration.m in Sources */,
+				4C48D52B1D4AFF9200322116 /* KBLiveStreamInfo.m in Sources */,
+				4C48D5201D4AFD2700322116 /* rtmp.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +618,7 @@
 				4C48D5031D4AF5A900322116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C48D5041D4AF5A900322116 /* Build configuration list for PBXNativeTarget "KBLivePlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +627,7 @@
 				4C48D5061D4AF5A900322116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C48D5071D4AF5A900322116 /* Build configuration list for PBXNativeTarget "KBLivePlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +636,7 @@
 				4C48D5091D4AF5A900322116 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
